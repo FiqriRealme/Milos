@@ -7,6 +7,7 @@ const transaksiController = require('../controllers/transaksiController');
 router.post('/transaksi', transaksiController.createTransaksi);
 router.post('/detail', transaksiController.tambahDetail);
 router.get('/transaksi', transaksiController.getTransaksi);
+router.get('/waste-types', transaksiController.getWasteTypes);
 
 
 module.exports = router;
